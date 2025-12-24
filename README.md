@@ -25,7 +25,6 @@ flutter pub run build_runner build --delete-conflicting-outputs
 - GoRouter para navegación
 - Dio para llamadas HTTP
 - Flutter Secure Storage para tokens
-- Freezed para modelos inmutables
 - Code generation (build_runner, json_serializable)
 
 ## Estructura
