@@ -1,8 +1,6 @@
 # Flutter Meet2Go - Requisitos Técnicos
 
-## ¿Qué voy a construir?
-
-Una app móvil simple para demostrar arquitectura limpia. Funcionalidades básicas:
+Construye app móvil simple para demostrar arquitectura limpia. Funcionalidades básicas:
 - Login 
 - Ver lista de eventos
 - Detalle de evento + comprar tickets
@@ -133,7 +131,37 @@ Email: user@example.com
 Password: password123
 ```
 
+## Flujo de Desarrollo por Fases
+
+### Fase 1: Setup inicial (15 min)
+- Crear proyecto Flutter
+- Instalar dependencias (Riverpod, go_router, Dio)
+- Configurar estructura de carpetas
+- Setup básico de theme y routing
+
+### Fase 2: Core y Auth (20 min)
+- Dio client para networking
+- Secure storage para tokens
+- Auth feature completo (login)
+- Navegación básica
+
+### Fase 3: Events feature (25 min)
+- Modelos y repositories de eventos
+- Pantalla lista de eventos
+- Pantalla detalle de evento
+- Integración con API
+
+### Fase 4: Tickets feature (30 min)
+- Modelos y repositories de tickets
+- Flujo de compra
+- Pantalla confirmación de compra
+- Pantalla "Mis Tickets"
+
+### Fase 5: Testing y ajustes (10 min)
+- Probar flujo completo
+- Ajustes de UI
+- Manejo de errores
+
 ---
 
-**Versión:** 0.1.0
 **Autor:** Juan Carlos Benavides
